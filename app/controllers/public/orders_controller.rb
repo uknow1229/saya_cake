@@ -1,13 +1,13 @@
-class OrdersController < ApplicationController
-  def new
+class Public::OrdersController < ApplicationController
+  def confirm
   end
 
-  def show
-  end
-
-  def update
+  def completed
   end
 
   def index
+  end
+
+  def show
   end
 end

@@ -1,10 +1,13 @@
-class CustomersController < ApplicationController
+class Public::CustomersController < ApplicationController
   def show
   end
 
   def edit
   end
 
-  def update
+  def check
+  end
+
+  def withdraw
   end
 end
